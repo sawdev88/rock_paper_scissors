@@ -11,12 +11,18 @@
     </header>
     <main>
       <ul>
-        <li><button type="button" name="rock" value="Rock">Rock</button></li>
-        <li><button type="button" name="paper" value="Paper">Paper</button></li>
-        <li><button type="button" name="scissors" value="Scissors">Scissors</button></li>
+        <li><button class="play" type="button" name="rock" value="Rock"><i class="fa fa-hand-rock-o" aria-hidden="true"></i></button></li>
+        <li><button class="play" type="button" name="paper" value="Paper"><i class="fa fa-hand-paper-o" aria-hidden="true"></i></button></li>
+        <li><button class="play" type="button" name="scissors" value="Scissors"><i class="fa fa-hand-scissors-o" aria-hidden="true"></i></button></li>
       </ul>
+      <h4 class="score">You: <span class="user-score-text">0</span> | Comp: <span class="comp-score-text">0</span></h4>
+      <h2 class="winner-text">Make your choice!</h2>
+      <h3 class="comp-text"></h3>
+      <button class="play-again" type="button" name="play-again" value="true">Play Again?</button>
     </main>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <script src="script.js" charset="utf-8"></script>
+  <script src="https://use.fontawesome.com/09efc92c6d.js"></script>
   </body>
 </html>
